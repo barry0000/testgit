@@ -1,0 +1,58 @@
+
+html,body{height: 100%;width: 100%;margin: 0;padding: 0;}
+.datetitle{
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.indexchoice{
+	margin: 10px auto;
+	display: flex;
+	width: 56px;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.indexchoice>*{
+	height: 6px;
+	width: 6px;
+	border-radius: 50%;
+	border: #000 solid 1px;
+}
+.indexchoice>.active{
+	background-color: #2e8ffe;
+	border:#2e8ffe solid 1px; ;
+}
+.tableFu{
+	width: 100%;
+	height: 512px ; 
+	overflow: scroll;
+}
+th,td{border: #ddd solid 1px;font-size: 13px;text-align: center;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+th,td:not(.hdate){height: 25px;line-height: 25px;}
+table .hdate{width: 18%;}
+table .htime{width: 20%;}
+table .hplace{width: 40%;}
+table .worktype{width: 22%;}
+table .meetingname{width: 100%;}
+table .htips{width: 32%;}
+table .wcontent{width: 68%;}
+.tableFu>table{width: 300%;table-layout: fixed;}
+th{background-color: #dedede;}
+#searchDiv{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	height: 45px;
+	width: 100%;
+	background-color: #f3f3f3;
+}
+#add{position: fixed;right: 16px;bottom: 66px;}
+#searchContext{width: 274px;height: 33px;line-height: 33px;font-size: 18px;padding-left: 22px;}

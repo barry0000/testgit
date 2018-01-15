@@ -1,0 +1,30 @@
+html,body{height: 100%;width: 100%;margin: 0;padding: 0;}
+#parttitle{padding-left:20px;height: 45px;line-height: 45px;border-bottom: #bebebe solid 1px;font-size: 14px;}
+#txtlist{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#txtlist>li{
+	padding-left: 24px;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: #bebebe solid 1px;
+	font-size: 18px;
+}
+#txtlist>li>*{vertical-align: middle;}
+#txtlist>li>img{margin-right: 38px;}
+#add{position: fixed;right: 16px;bottom: 66px;}
+#searchDiv{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	height: 45px;
+	width: 100%;
+	background-color: #f3f3f3;
+}
+#searchContext{width: 274px;height: 33px;line-height: 33px;font-size: 18px;padding-left: 22px;}

@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/workarrange.css" />
+		<script type="text/javascript" src="js/jquery-2.1.1.min.js" ></script>
+		<script>
+			$(function(){
+				$('textarea').keyup(function () {
+					  $(this).css("height",$(this).height()+$(this).scrollTop());
+				});
+			})
+		</script>
+		<style>
+			.tablework td{padding-top: 20px;padding-bottom: 20px;}
+		</style>
+	</head>
+	<body>
+		<table class="tablework"  border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td>单位人员</td>
+				<td><input placeholder="请输入单位人员" type="text"/></td>
+			</tr>
+			<tr>
+				<td>工作名称</td>
+				<td><textarea placeholder="请输入工作名称"></textarea></td>
+			</tr>
+			<tr>
+				<td>工作类型</td>
+				<td><input placeholder="请输入工作类型" type="text"/></td>
+			</tr>
+			<tr>
+				<td>地点</td>
+				<td><input placeholder="请输入地点" type="text"/></td>
+			</tr>
+			<tr>
+				<td>时间</td>
+				<td><input type="date"/></td>
+			</tr>
+			<tr>
+				<td>备注</td>
+				<td><textarea placeholder="请输入备注"></textarea></td>
+			</tr>
+			<tr>
+				<td>工作内容</td>
+				<td><textarea placeholder="请输入工作内容"></textarea></td>
+			</tr>
+		</table>
+		<input type="button" class="confirm" value="确定"/>
+	</body>
+</html>

@@ -1,0 +1,19 @@
+.tablework{margin: 0;width: 100%;}
+html,body{height: 100%;width: 100%;margin: 0;padding: 0;}
+.tablework td:first-child{width: 25.6%;text-align: center;}
+.tablework td{border-bottom: #BEBEBE solid 1px;padding-top: 22px;padding-bottom: 22px;}
+.tablework td:nth-child(2){padding-right: 4px;}
+.tablework textarea,input{width: 180px;height: 33px;resize: none;}
+.confirm{
+	margin-top: 20px ;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 246px;
+	height: 45px;
+	line-height: 45px;
+	color: #fff;
+	background-color: #69acfa;
+	border: none;
+	cursor: pointer;
+}
